@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<br>
+<input  type="text" id="nhapSo" >
+<button onclick="execute()">chu vi</button></br>
+<input  type="text" id="nhapSo2" >
+<button onclick="area()">dien tich</button>
+<script>
+    function execute(){
+        let r = parseInt(document.getElementById('nhapSo').value);
+        let chuvi = r * r * 3.14;
+        alert("chuvihinhtronla: " + chuvi);
+    }
+    function area() {
+        let r = parseInt(document.getElementById('nhapSo2').value);
+        let dientich = r * 2 * 3.14;
+        alert("dientichhinhtronla: " + dientich);
+    }
+</script>
+</body>
+</html>
